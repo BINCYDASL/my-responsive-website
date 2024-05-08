@@ -1,0 +1,180 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    width:100%;
+    color: white;
+}
+header img{
+    width:150px;
+}
+header ul li{
+    text-align: center;
+list-style-type: none;
+}
+
+
+@media (min-width:576px) {
+    header {
+        display:flex;
+    }
+    #navlist{
+        background-color: rgba(0, 0, 0, 0.8);;
+        width:100%;
+    }
+    header ul
+    {
+        display:flex;
+        justify-content:space-around;
+
+        
+    }
+    #imgdiv{
+        width:30%;
+    }
+    header #imgdiv img{
+        margin:7px;
+    }
+    /* main section */
+    .mainsection h1{
+        text-decoration: underline;
+        text-align: center;
+        padding-top: 10px;
+        color: brown;
+    }
+    .description p {
+      text-indent: 15px;;
+      text-align: center;
+      line-height: 25px;
+      word-spacing: 5px;
+      margin:0 20px;
+    }
+    .imagesection{
+        background-color:#e0e0e0;
+    }
+    .imagecontainer{
+        display:flex;
+        display:contents;
+        
+        
+        
+    }
+    .imagecontainer img{
+        
+        justify-content: space-between;
+        object-fit: cover;
+        width:100%;
+    }
+    .imagecontainer figure{
+        width:32%;
+        display:inline-block;
+    }
+    .workflowmain{
+        display:flex;
+        justify-content: space-around;
+        
+        
+    }
+    .workflow1{
+        text-align: center;
+        width: 30%;
+    }
+    .workflow2{
+        text-align: center;
+        width:30%;
+    }
+    .workflow3{
+        text-align: center;
+        width:30%;
+    }
+    .footer1{
+        display: flex;
+        justify-content: space-around;
+    }
+    figcaption{
+        background-color:rgba(0, 0, 0, 0.8);
+        color: #fff;
+        text-align: center;
+        font-size: 19px;
+    }
+    .mailid{
+        color: darkred;
+    }
+    .first{
+        font-size: 12px;;
+    }
+    .imagesection h2{
+        border-left-color: 4px solid #c90505;
+        margin-top: 5px;
+        margin-left: 30px;
+    }
+    header ul li{
+        text-align: center;
+    list-style-type: none;
+    }
+}
+.description p {
+    text-indent: 15px;;
+    text-align: center;
+    line-height: 25px;
+    word-spacing: 5px;
+    margin:0 20px;}
+    
+    
+    img{
+        width:100%;
+    }
+    .mainsection h1{
+        color: brown;
+        text-decoration: underline;
+        text-align: center;
+    }
+    figcaption{
+        background-color:rgba(0, 0, 0, 0.8);
+        color: #fff;
+        text-align: center;
+        font-size: 19px;
+    }
+    .mailid{
+        color: darkred;
+    }
+    .first{
+        font-size: 12px;;
+    }
+    .imagesection h2{
+       border-left: 4px solid #c90505;
+       font-size: 32px;
+       margin-top: 5px;
+    }
+    .workflow{
+        background-color: white;
+        margin-left: 30px;
+        margin-top: 90px;
+    }
+    .workflow p{
+        color:#ebe9e9;;
+        font-size: 80px;
+        text-align: center;
+    }
+    .workflow h2{
+        font-size: 32px;
+        border-left: 4px solid #c90505;
+    }
+    .footer1 h4{
+        font-size: 20px;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        margin-top: 50px;
+    }
+    .imagecontainer{
+        margin-top: 90px;
+    }
+    .third img{
+        width: 300%;
+    }
+    
+    
